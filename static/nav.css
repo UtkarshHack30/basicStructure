@@ -36,10 +36,48 @@
 #bar{
     padding: 0px 10px;
     border-radius: 31px;
+    display: none;
 }
 
 #bar:hover,#bar:focus{
     
     background-color: #171941;
     cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  background: #15162d;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a{
+  text-decoration: none;
+}
+
+.dropdown-content a:hover{
+  color: antiquewhite;
+}
+
+@media only screen and (max-width: 600px){
+  #bar{
+      display: block;
+  }
+  #navbar ul{
+    display: none;
+  }
 }
