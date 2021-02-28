@@ -30,8 +30,13 @@
   padding: 4px 9px;
   border-radius: 23px;
 }
-#navbar ul li a:hover,body {
-  background-color: #171941;
+#navbar ul li a:hover{
+  background-color: white;
+  color: black;
+  text-transform: lowercase;
+}
+body{
+background-color: #171941;
 }
 #bar{
     padding: 0px 10px;

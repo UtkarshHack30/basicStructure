@@ -5,7 +5,8 @@
     justify-content: center;
     text-align: center;
     display: flex;
-    background: #4b4747;
+    background: url(../static/img/pexels-olia-danilevich-5088008.jpg) no-repeat center center/cover;
+    background-attachment: fixed;
     height: 400px;
 }
 @media only screen and (min-width: 600px){
