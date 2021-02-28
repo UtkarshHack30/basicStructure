@@ -1,0 +1,45 @@
+#container{
+    width: 80%;
+    margin: 5px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-size: 30px;
+    border-bottom: 1px solid #484a63;
+    margin: 30px auto;
+    width: 80%;
+}
+
+.courses{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+    margin: 10px;
+    border-radius: 100px;
+    background-color: rgb(255, 0, 136);
+    box-shadow: -6px 3px 11px 2px #ec4197;
+}
+
+.courses a{
+    text-decoration: none;
+    display: block;
+    background: white;
+    color: black;
+    margin: 6px 0px;
+    padding: 0px 8px;
+    border-radius: 29px;
+}
+
+.courses a:hover{
+    cursor: pointer;
+    background: black;
+    color: white;
+    text-transform: lowercase;
+}
